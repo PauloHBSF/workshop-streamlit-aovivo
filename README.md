@@ -32,5 +32,5 @@ poetry install
 4. Rode o Projeto
 ```
 poetry shell
-python src/dashboard.py
+python src/app.py
 ```
