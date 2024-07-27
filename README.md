@@ -14,8 +14,7 @@ cd workshop-streamlit-aovivo
 
 2. Faça o Setup do Pyenv
 *Documentação para Instalação do Poetry*
-*https://github.com/pyenv/pyenv?tab=readme-ov-file#installation*
--
+[Pyenv Docs](*https://github.com/pyenv/pyenv?tab=readme-ov-file#installation*)
 ```
 pyenv install 3.12.1
 pyenv local 3.12.1
@@ -23,7 +22,7 @@ pyenv local 3.12.1
 
 3. Instale as dependências do Projeto - Utilize preferencialmente o Poetry
 *Documentação para Instalação do Poetry*
-*https://python-poetry.org/docs/* 
+[Poetry Docs](*https://python-poetry.org/docs/*)
 ```
 poetry install
 ```
