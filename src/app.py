@@ -19,6 +19,7 @@ cidades = {
 if 'pontos_paradas' not in st.session_state:
     st.session_state.pontos_paradas  = pd.DataFrame(
             columns=[
+                "Coleta/Entrega",
                 "Nome Empresa",
                 "Cidade",
                 "UF",
@@ -91,6 +92,7 @@ with col1:
             
             else:
                 novo_dado = {
+                    "Coleta/Entrega": tipo_local,
                     "Nome Empresa":nome_empresa,
                     "Cidade": cidade_empresa,
                     "UF": uf_empresa,
@@ -121,4 +123,4 @@ with col1:
 with col2:
 
     with st.container(border=True):
-        st.dataframe(st.session_state.pontos_paradas)
+        st.dataframe(st.session_state.pontos_paradas, use_container_width=True)
